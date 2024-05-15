@@ -1,4 +1,7 @@
-VALIDACIONES POR ATRIBUTO:
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+                                                                VALIDACIONES POR ATRIBUTO:
+
 1.	Código de producto: 
   Validación tipo de dato numérico INTEGER: evita el ingreso de datos inválidos como decimales, negativos u otro tipo de datos no numéricos.
   Validación unicidad: para asegurar que el producto no fue guardado antes para evitar así redundancia de datos.
@@ -23,10 +26,14 @@ VALIDACIONES POR ATRIBUTO:
 8.	Precio de compra:
   a.	Validación Tipo de dato decimales positivos FLOAT: para permitir trabajar con precios decimales y evitar el riesgo del ingreso de caracteres no numéricos.
 SE VERIFICA que ningún atributo esté nulo, NONE o NULL
-CODIFICACIÓN:
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+                                                                      CODIFICACIÓN:
+
 En este caso usariamos la codificacion de codigos secuenciales simples, por varias razones:
-Identificación única y automática: Asignar un código secuencial a cada dato (como productos o proveedores) permite una identificación única y automática. Esto facilita la búsqueda, el seguimiento y la gestión de los elementos en el inventario.
-Eficiencia en búsquedas y consultas: Al no requerir conocimiento previo del objeto por su código, los usuarios pueden buscar y acceder rápidamente a la información sin necesidad de recordar nombres específicos o detalles.
-Cumplimiento legal: En algunos casos, la ley exige que los productos o proveedores tengan códigos únicos para rastrear su origen, garantizar la seguridad o cumplir con regulaciones específicas.
-Facilita la automatización: Los códigos secuenciales son fáciles de generar automáticamente mediante sistemas informáticos. Esto simplifica la entrada de datos y reduce errores humanos.
-Escalabilidad: A medida que se agregan más elementos al inventario, los códigos secuenciales siguen siendo efectivos sin requerir cambios significativos en la estructura del sistema.
+  1. Identificación única y automática: Asignar un código secuencial a cada dato (como productos o proveedores) permite una identificación única y automática. Esto facilita la búsqueda, el seguimiento y la gestión de los elementos en el inventario.
+  2. Eficiencia en búsquedas y consultas: Al no requerir conocimiento previo del objeto por su código, los usuarios pueden buscar y acceder rápidamente a la información sin necesidad de recordar nombres específicos o detalles.
+  3. Cumplimiento legal: En algunos casos, la ley exige que los productos o proveedores tengan códigos únicos para rastrear su origen, garantizar la seguridad o cumplir con regulaciones específicas.
+  4. Facilita la automatización: Los códigos secuenciales son fáciles de generar automáticamente mediante sistemas informáticos. Esto simplifica la entrada de datos y reduce errores humanos.
+  5. Escalabilidad: A medida que se agregan más elementos al inventario, los códigos secuenciales siguen siendo efectivos sin requerir cambios significativos en la estructura del sistema.
